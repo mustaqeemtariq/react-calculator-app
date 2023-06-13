@@ -8,7 +8,7 @@ export const Keypad = () => {
   console.log(values);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 border border-5 w-fit p-4 mx-auto border-blue-500 rounded ">
       <Screen values={values} />
       <div className="flex items-center justify-center space-x-3">
         <div className="grid grid-cols-3 gap-x-3 gap-y-5 w-56">
